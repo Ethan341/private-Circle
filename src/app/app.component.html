@@ -1,0 +1,5 @@
+
+<div style="margin-top: 40px;">
+    <table-comp style="width: 75%; float:left" [tableData] = "savedLists" (listSelected)="showListDetails($event)" ></table-comp>
+    <app-details style="width: 25%; float:right" [listDetails]="selectedList"></app-details>
+</div>

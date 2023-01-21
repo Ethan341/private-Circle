@@ -1,0 +1,16 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(auto, auto);
+  }
+  .first {
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 1;
+  }
+  .second {
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+  }

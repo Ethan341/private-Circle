@@ -1,0 +1,9 @@
+<div>
+  <div style="align-self: center">Details</div>
+  <div>
+    <span> list Name :: {{ listDetails?.listName }} </span>
+  </div>
+  <div *ngFor="let entity of listDetails?.childEntities">
+    {{ entity?.entityName }} :: {{ entity?.entityDescription }}
+  </div>
+</div>
